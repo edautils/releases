@@ -7,7 +7,7 @@ integration and RTL hierarchy manipulation, testbench and register-model generat
 
 - Downloads: https://edautils.ai/
 - Documentation: https://edautils.com/ (AI SDK: https://edautils.ai/)
-- Latest release: [RELEASE_20260915](../../releases/tag/RELEASE_20260915)
+- Latest release: [RELEASE_20260916](../../releases/tag/RELEASE_20260916)
 - Support: help@edautils.com
 
 ## Install and run
@@ -93,20 +93,20 @@ Keywords: create hierarchy, group instances, Verilog partition, RTL restructurin
 - Download page: https://edautils.ai/download?tool=Createhierarchy
 - Documentation: https://edautils.com/
 
-### DesignPlayer GUI (Linux) (`designplayer-gui-linux`)
+### IP-XACT GUI (Linux) (`designplayer-gui-linux`)
 
-Complete bundle with all tools in GUI and commandline mode
+Complete GUI tool to create/modify IP-XACT files with intuitive interface
 
 - Asset: `DesignPlayer-linux.x86_64-20260908.tar.gz` on the release page
-- Download page: https://edautils.ai/download?tool=DesignplayerGuiLinux
+- Download page: https://edautils.ai/download?tool=IpXactGuiLinux
 - Documentation: https://edautils.com/
 
-### DesignPlayer GUI (Windows) (`designplayer-gui-windows`)
+### IP-XACT GUI (Windows) (`designplayer-gui-windows`)
 
-Complete bundle with all tools in GUI and commandline mode
+Complete GUI tool to create/modify IP-XACT files with intuitive interface
 
 - Asset: `DesignPlayer-win32.x86_64-20260908.zip` on the release page
-- Download page: https://edautils.ai/download?tool=DesignplayerGuiWindows
+- Download page: https://edautils.ai/download?tool=IpXactGuiWindows
 - Documentation: https://edautils.com/
 
 ### designplayer-shell (`designplayer-shell`)
@@ -125,7 +125,7 @@ AI agent fleet for EDA: a Flow Manager, 7 domain Leads and 55 agents that parse 
 
 Keywords: AI agents for EDA, AI SDK for chip design, LLM agents for RTL, agentic RTL design flow, AI DFT flow, AI CDC analysis, SoC integration agents, Verilog VHDL AI parser, design model extraction, MCP server for EDA, VS Code EDA extension, Cursor EDA extension, Python EDA SDK, free AI EDA tool
 
-- Asset: `edautils-ai-sdk-20260915.tar.gz` on the release page
+- Asset: `edautils-ai-sdk-20260916.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=EdautilsAiSdk
 - Documentation: https://edautils.ai/
 
