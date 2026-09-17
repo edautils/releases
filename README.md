@@ -7,7 +7,7 @@ integration and RTL hierarchy manipulation, testbench and register-model generat
 
 - Downloads: https://edautils.ai/
 - Documentation: https://edautils.com/ (AI SDK: https://edautils.ai/)
-- Latest release: [RELEASE_20260916](../../releases/tag/RELEASE_20260916)
+- Latest release: [RELEASE_20260908](../../releases/tag/RELEASE_20260908)
 - Support: help@edautils.com
 
 ## Install and run
@@ -118,16 +118,6 @@ Keywords: IP-XACT tool, IP integration, RTL utilities, Tcl shell, Python API, Ja
 - Asset: `designplayer-shell-20260908.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=DesignplayerShell
 - Documentation: https://edautils.com/
-
-### edautils-ai-sdk (`edautils-ai-sdk`)
-
-AI agent fleet for EDA: a Flow Manager, 7 domain Leads and 55 agents that parse RTL, build a design model, and run FECAD, DFT, RTL-static, verification, signoff and SoC-integration flows from one natural-language request. Ships a Python SDK, a CLI, a TUI, a WebGUI, an MCP facade, and VS Code and Cursor extensions. Runs entirely inside your network against a local model server or your own provider keys.
-
-Keywords: AI agents for EDA, AI SDK for chip design, LLM agents for RTL, agentic RTL design flow, AI DFT flow, AI CDC analysis, SoC integration agents, Verilog VHDL AI parser, design model extraction, MCP server for EDA, VS Code EDA extension, Cursor EDA extension, Python EDA SDK, free AI EDA tool
-
-- Asset: `edautils-ai-sdk-20260916.tar.gz` on the release page
-- Download page: https://edautils.ai/download?tool=EdautilsAiSdk
-- Documentation: https://edautils.ai/
 
 ### findinstsornets (`findinstsornets`)
 
