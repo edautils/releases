@@ -93,6 +93,16 @@ Keywords: create hierarchy, group instances, Verilog partition, RTL restructurin
 - Download page: https://edautils.ai/download?tool=Createhierarchy
 - Documentation: https://edautils.com/
 
+### designplayer-shell (`designplayer-shell`)
+
+All EDAUtils capabilities in commandline mode - Tcl Shell, Python and Java API
+
+Keywords: IP-XACT tool, IP integration, RTL utilities, Tcl shell, Python API, Java API, EDA command line
+
+- Asset: `designplayer-shell-20261017.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=DesignplayerShell
+- Documentation: https://edautils.com/
+
 ### findinstsornets (`findinstsornets`)
 
 Find instances or nets by name or pattern across a Verilog design hierarchy and print their full hierarchical paths.
