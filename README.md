@@ -7,7 +7,7 @@ integration and RTL hierarchy manipulation, testbench and register-model generat
 
 - Downloads: https://edautils.ai/
 - Documentation: https://edautils.com/ (AI SDK: https://edautils.ai/)
-- Latest release: [RELEASE_20261017](../../releases/tag/RELEASE_20261017)
+- Latest release: [RELEASE_20261018](../../releases/tag/RELEASE_20261018)
 - Support: help@edautils.com
 
 ## Install and run
@@ -23,12 +23,42 @@ licence; commercial licences from help@edautils.com.
 
 ## Tools in this release
 
-### edautils-ai-sdk (`edautils-ai-sdk`)
+### ipxactreg2verilog (`ipxactreg2verilog`)
 
-AI agent fleet for EDA: a Flow Manager, 7 domain Leads and 55 agents that parse RTL, build a design model, and run FECAD, DFT, RTL-static, verification, signoff and SoC-integration flows from one natural-language request. Ships a Python SDK, a CLI, a TUI, a WebGUI, an MCP facade, and VS Code and Cursor extensions. Runs entirely inside your network against a local model server or your own provider keys.
+Generate synthesizable Verilog RTL for the registers and address blocks of an IP-XACT component, with a bus interface for register access.
 
-Keywords: AI agents for EDA, AI SDK for chip design, LLM agents for RTL, agentic RTL design flow, AI DFT flow, AI CDC analysis, SoC integration agents, Verilog VHDL AI parser, design model extraction, MCP server for EDA, VS Code EDA extension, Cursor EDA extension, Python EDA SDK, free AI EDA tool
+Keywords: register RTL generator, IP-XACT registers to Verilog, memory map RTL, IEEE 1685
 
-- Asset: `edautils-ai-sdk-20261017.tar.gz` on the release page
-- Download page: https://edautils.ai/download?tool=EdautilsAiSdk
-- Documentation: https://edautils.ai/
+- Asset: `ipxactreg2verilog-20261018.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=Ipxactreg2verilog
+- Documentation: https://edautils.com/
+
+### ipxactreg2xlsreg (`ipxactreg2xlsreg`)
+
+Export the registers of an IP-XACT address block to an Excel register spreadsheet for review and documentation.
+
+Keywords: IP-XACT to Excel, register spreadsheet, register export, IEEE 1685
+
+- Asset: `ipxactreg2xlsreg-20261018.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=Ipxactreg2xlsreg
+- Documentation: https://edautils.com/
+
+### verilog2ipxact (`verilog2ipxact`)
+
+Generate IP-XACT Component from Verilog module with ports and parameters
+
+Keywords: Verilog to IP-XACT, IP-XACT component generator, IEEE 1685, IP packaging
+
+- Asset: `verilog2ipxact-20261018.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=Verilog2Ipxact
+- Documentation: https://edautils.com/
+
+### verilog2lib (`verilog2lib`)
+
+Generate a Liberty .lib library shell from Verilog modules: one cell per module with its pins and directions.
+
+Keywords: Verilog to Liberty, library generator, .lib generator, cell library
+
+- Asset: `verilog2lib-20261018.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=Verilog2lib
+- Documentation: https://edautils.com/
