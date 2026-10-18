@@ -7,7 +7,7 @@ integration and RTL hierarchy manipulation, testbench and register-model generat
 
 - Downloads: https://edautils.ai/
 - Documentation: https://edautils.com/ (AI SDK: https://edautils.ai/)
-- Latest release: [RELEASE_20261009](../../releases/tag/RELEASE_20261009)
+- Latest release: [RELEASE_20261017](../../releases/tag/RELEASE_20261017)
 - Support: help@edautils.com
 
 ## Install and run
@@ -23,28 +23,12 @@ licence; commercial licences from help@edautils.com.
 
 ## Tools in this release
 
-### baya-shell (`baya-shell`)
+### edautils-ai-sdk (`edautils-ai-sdk`)
 
-Complete SoC integration solution with Tcl API (Recommended)
+AI agent fleet for EDA: a Flow Manager, 7 domain Leads and 55 agents that parse RTL, build a design model, and run FECAD, DFT, RTL-static, verification, signoff and SoC-integration flows from one natural-language request. Ships a Python SDK, a CLI, a TUI, a WebGUI, an MCP facade, and VS Code and Cursor extensions. Runs entirely inside your network against a local model server or your own provider keys.
 
-Keywords: SoC integration tool, RTL hookup, IP assembly, IP-XACT design, Verilog VHDL integration, Tcl API, free EDA tool
+Keywords: AI agents for EDA, AI SDK for chip design, LLM agents for RTL, agentic RTL design flow, AI DFT flow, AI CDC analysis, SoC integration agents, Verilog VHDL AI parser, design model extraction, MCP server for EDA, VS Code EDA extension, Cursor EDA extension, Python EDA SDK, free AI EDA tool
 
-- Asset: `baya-shell-20261009.tar.gz` on the release page
-- Download page: https://edautils.ai/download?tool=BayaShell
-- Documentation: https://edautils.com/
-
-### IP-XACT GUI (Linux) (`designplayer-gui-linux`)
-
-Complete GUI tool to create/modify IP-XACT files with intuitive interface
-
-- Asset: `DesignPlayer-linux.x86_64-20261009.tar.gz` on the release page
-- Download page: https://edautils.ai/download?tool=IpXactGuiLinux
-- Documentation: https://edautils.com/
-
-### IP-XACT GUI (Windows) (`designplayer-gui-windows`)
-
-Complete GUI tool to create/modify IP-XACT files with intuitive interface
-
-- Asset: `DesignPlayer-win32.x86_64-20261009.zip` on the release page
-- Download page: https://edautils.ai/download?tool=IpXactGuiWindows
-- Documentation: https://edautils.com/
+- Asset: `edautils-ai-sdk-20261017.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=EdautilsAiSdk
+- Documentation: https://edautils.ai/
