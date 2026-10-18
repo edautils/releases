@@ -7,7 +7,7 @@ integration and RTL hierarchy manipulation, testbench and register-model generat
 
 - Downloads: https://edautils.ai/
 - Documentation: https://edautils.com/ (AI SDK: https://edautils.ai/)
-- Latest release: [RELEASE_20261009](../../releases/tag/RELEASE_20261009)
+- Latest release: [RELEASE_20261018](../../releases/tag/RELEASE_20261018)
 - Support: help@edautils.com
 
 ## Install and run
@@ -23,28 +23,42 @@ licence; commercial licences from help@edautils.com.
 
 ## Tools in this release
 
-### baya-shell (`baya-shell`)
+### ipxactreg2verilog (`ipxactreg2verilog`)
 
-Complete SoC integration solution with Tcl API (Recommended)
+Generate synthesizable Verilog RTL for the registers and address blocks of an IP-XACT component, with a bus interface for register access.
 
-Keywords: SoC integration tool, RTL hookup, IP assembly, IP-XACT design, Verilog VHDL integration, Tcl API, free EDA tool
+Keywords: register RTL generator, IP-XACT registers to Verilog, memory map RTL, IEEE 1685
 
-- Asset: `baya-shell-20261009.tar.gz` on the release page
-- Download page: https://edautils.ai/download?tool=BayaShell
+- Asset: `ipxactreg2verilog-20261018.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=Ipxactreg2verilog
 - Documentation: https://edautils.com/
 
-### IP-XACT GUI (Linux) (`designplayer-gui-linux`)
+### ipxactreg2xlsreg (`ipxactreg2xlsreg`)
 
-Complete GUI tool to create/modify IP-XACT files with intuitive interface
+Export the registers of an IP-XACT address block to an Excel register spreadsheet for review and documentation.
 
-- Asset: `DesignPlayer-linux.x86_64-20261009.tar.gz` on the release page
-- Download page: https://edautils.ai/download?tool=IpXactGuiLinux
+Keywords: IP-XACT to Excel, register spreadsheet, register export, IEEE 1685
+
+- Asset: `ipxactreg2xlsreg-20261018.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=Ipxactreg2xlsreg
 - Documentation: https://edautils.com/
 
-### IP-XACT GUI (Windows) (`designplayer-gui-windows`)
+### verilog2ipxact (`verilog2ipxact`)
 
-Complete GUI tool to create/modify IP-XACT files with intuitive interface
+Generate IP-XACT Component from Verilog module with ports and parameters
 
-- Asset: `DesignPlayer-win32.x86_64-20261009.zip` on the release page
-- Download page: https://edautils.ai/download?tool=IpXactGuiWindows
+Keywords: Verilog to IP-XACT, IP-XACT component generator, IEEE 1685, IP packaging
+
+- Asset: `verilog2ipxact-20261018.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=Verilog2Ipxact
+- Documentation: https://edautils.com/
+
+### verilog2lib (`verilog2lib`)
+
+Generate a Liberty .lib library shell from Verilog modules: one cell per module with its pins and directions.
+
+Keywords: Verilog to Liberty, library generator, .lib generator, cell library
+
+- Asset: `verilog2lib-20261018.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=Verilog2lib
 - Documentation: https://edautils.com/
