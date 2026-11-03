@@ -7,7 +7,7 @@ integration and RTL hierarchy manipulation, testbench and register-model generat
 
 - Downloads: https://edautils.ai/
 - Documentation: https://edautils.com/ (AI SDK: https://edautils.ai/)
-- Latest release: [RELEASE_20261009](../../releases/tag/RELEASE_20261009)
+- Latest release: [RELEASE_20261015](../../releases/tag/RELEASE_20261015)
 - Support: help@edautils.com
 
 ## Install and run
@@ -23,28 +23,10 @@ licence; commercial licences from help@edautils.com.
 
 ## Tools in this release
 
-### baya-shell (`baya-shell`)
+### FECAD Flow (`fecadflow-bin`)
 
-Complete SoC integration solution with Tcl API (Recommended)
+Flow automation framework for RTL simulation, synthesis, static checks, equivalence checking and DV regression across an IP hierarchy. Standalone Linux executables, no Python installation required.
 
-Keywords: SoC integration tool, RTL hookup, IP assembly, IP-XACT design, Verilog VHDL integration, Tcl API, free EDA tool
-
-- Asset: `baya-shell-20261009.tar.gz` on the release page
-- Download page: https://edautils.ai/download?tool=BayaShell
-- Documentation: https://edautils.com/
-
-### IP-XACT GUI (Linux) (`designplayer-gui-linux`)
-
-Complete GUI tool to create/modify IP-XACT files with intuitive interface
-
-- Asset: `DesignPlayer-linux.x86_64-20261009.tar.gz` on the release page
-- Download page: https://edautils.ai/download?tool=IpXactGuiLinux
-- Documentation: https://edautils.com/
-
-### IP-XACT GUI (Windows) (`designplayer-gui-windows`)
-
-Complete GUI tool to create/modify IP-XACT files with intuitive interface
-
-- Asset: `DesignPlayer-win32.x86_64-20261009.zip` on the release page
-- Download page: https://edautils.ai/download?tool=IpXactGuiWindows
+- Asset: `fecadflow-bin-20261015.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=FECADFlowBinaries
 - Documentation: https://edautils.com/
