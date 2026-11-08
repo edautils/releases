@@ -107,7 +107,7 @@ Keywords: create hierarchy, group instances, Verilog partition, RTL restructurin
 
 Complete GUI tool to create/modify IP-XACT files with intuitive interface
 
-- Asset: `DesignPlayer-linux.x86_64-20261009.tar.gz` on the release page
+- Asset: `DesignPlayer-linux.x86_64-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=IpXactGuiLinux
 - Documentation: https://edautils.com/
 
@@ -115,7 +115,7 @@ Complete GUI tool to create/modify IP-XACT files with intuitive interface
 
 Complete GUI tool to create/modify IP-XACT files with intuitive interface
 
-- Asset: `DesignPlayer-win32.x86_64-20261009.zip` on the release page
+- Asset: `DesignPlayer-win32.x86_64-20261108.zip` on the release page
 - Download page: https://edautils.ai/download?tool=IpXactGuiWindows
 - Documentation: https://edautils.com/
 
@@ -125,7 +125,7 @@ All EDAUtils capabilities in commandline mode - Tcl Shell, Python and Java API
 
 Keywords: IP-XACT tool, IP integration, RTL utilities, Tcl shell, Python API, Java API, EDA command line
 
-- Asset: `designplayer-shell-20261018.tar.gz` on the release page
+- Asset: `designplayer-shell-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=DesignplayerShell
 - Documentation: https://edautils.com/
 
