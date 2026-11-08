@@ -7,7 +7,7 @@ integration and RTL hierarchy manipulation, testbench and register-model generat
 
 - Downloads: https://edautils.ai/
 - Documentation: https://edautils.com/ (AI SDK: https://edautils.ai/)
-- Latest release: [RELEASE_20261018](../../releases/tag/RELEASE_20261018)
+- Latest release: [RELEASE_20261108](../../releases/tag/RELEASE_20261108)
 - Support: help@edautils.com
 
 ## Install and run
@@ -23,13 +23,23 @@ licence; commercial licences from help@edautils.com.
 
 ## Tools in this release
 
+### baya-shell (`baya-shell`)
+
+Complete SoC integration solution with Tcl API (Recommended)
+
+Keywords: SoC integration tool, RTL hookup, IP assembly, IP-XACT design, Verilog VHDL integration, Tcl API, free EDA tool
+
+- Asset: `baya-shell-20261009.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=BayaShell
+- Documentation: https://edautils.com/
+
 ### compareconnectivitydatabase (`compareconnectivitydatabase`)
 
 Diff the connectivity of two designs: genconnectiondb writes each design's connection database and compareconnectiondb reports every connection added, removed or changed -- did a restructuring change the design?
 
 Keywords: connectivity compare, netlist diff, restructuring check
 
-- Asset: `compareconnectivitydatabase-20261018.tar.gz` on the release page
+- Asset: `compareconnectivitydatabase-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Compareconnectivitydatabase
 - Documentation: https://edautils.com/
 
@@ -39,7 +49,7 @@ Compare VHDL Entities for port/generics changes between versions
 
 Keywords: VHDL entity compare, port comparison, generics comparison, VHDL diff
 
-- Asset: `compareentities-20261018.tar.gz` on the release page
+- Asset: `compareentities-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Compareentities
 - Documentation: https://edautils.com/
 
@@ -49,7 +59,7 @@ Compare two IP-XACT components or designs and report every difference in ports, 
 
 Keywords: IP-XACT compare, IP-XACT diff, IEEE 1685, component comparison
 
-- Asset: `compareipxact-20261018.tar.gz` on the release page
+- Asset: `compareipxact-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Compareipxact
 - Documentation: https://edautils.com/
 
@@ -59,7 +69,7 @@ Compare port/parameter changes between Verilog modules to assess integration imp
 
 Keywords: Verilog module compare, port comparison, parameter comparison, interface diff
 
-- Asset: `comparemoduleinterfaces-20261018.tar.gz` on the release page
+- Asset: `comparemoduleinterfaces-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Comparemoduleinterfaces
 - Documentation: https://edautils.com/
 
@@ -69,7 +79,7 @@ Compare two SDC constraint files and report every added, removed or changed cons
 
 Keywords: SDC compare, SDC diff, timing constraints comparison, constraint review
 
-- Asset: `comparesdc-20261018.tar.gz` on the release page
+- Asset: `comparesdc-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Comparesdc
 - Documentation: https://edautils.com/
 
@@ -79,7 +89,7 @@ Compare two UPF power-intent files (IEEE 1801) and report added, removed and cha
 
 Keywords: UPF compare, UPF diff, power intent comparison, IEEE 1801
 
-- Asset: `compareupf-20261018.tar.gz` on the release page
+- Asset: `compareupf-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Compareupf
 - Documentation: https://edautils.com/
 
@@ -89,8 +99,24 @@ Group instances to build new Tile/Partition in SoC
 
 Keywords: create hierarchy, group instances, Verilog partition, RTL restructuring, SoC tile
 
-- Asset: `createhierarchy-20261018.tar.gz` on the release page
+- Asset: `createhierarchy-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Createhierarchy
+- Documentation: https://edautils.com/
+
+### IP-XACT GUI (Linux) (`designplayer-gui-linux`)
+
+Complete GUI tool to create/modify IP-XACT files with intuitive interface
+
+- Asset: `DesignPlayer-linux.x86_64-20261009.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=IpXactGuiLinux
+- Documentation: https://edautils.com/
+
+### IP-XACT GUI (Windows) (`designplayer-gui-windows`)
+
+Complete GUI tool to create/modify IP-XACT files with intuitive interface
+
+- Asset: `DesignPlayer-win32.x86_64-20261009.zip` on the release page
+- Download page: https://edautils.ai/download?tool=IpXactGuiWindows
 - Documentation: https://edautils.com/
 
 ### designplayer-shell (`designplayer-shell`)
@@ -103,13 +129,41 @@ Keywords: IP-XACT tool, IP integration, RTL utilities, Tcl shell, Python API, Ja
 - Download page: https://edautils.ai/download?tool=DesignplayerShell
 - Documentation: https://edautils.com/
 
+### edautils-ai-sdk (`edautils-ai-sdk`)
+
+AI agent fleet for EDA: a Flow Manager, 7 domain Leads and 55 agents that parse RTL, build a design model, and run FECAD, DFT, RTL-static, verification, signoff and SoC-integration flows from one natural-language request. Ships a Python SDK, a CLI, a TUI, a WebGUI, an MCP facade, and VS Code and Cursor extensions. Runs entirely inside your network against a local model server or your own provider keys.
+
+Keywords: AI agents for EDA, AI SDK for chip design, LLM agents for RTL, agentic RTL design flow, AI DFT flow, AI CDC analysis, SoC integration agents, Verilog VHDL AI parser, design model extraction, MCP server for EDA, VS Code EDA extension, Cursor EDA extension, Python EDA SDK, free AI EDA tool
+
+- Asset: `edautils-ai-sdk-20261017.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=EdautilsAiSdk
+- Documentation: https://edautils.ai/
+
+### edautils-expert-systems (`edautils-expert-systems`)
+
+Rule-based CDC, RDC and Lint Expert Systems: for every violation a CDC, RDC or Lint tool reports, a verdict (FIX_RTL, WAIVE as a proposal that needs your written reference, FIX_CONSTRAINT or NEEDS_REVIEW) with the rule that fired and its derivation, decided from the elaborated design, the SDC, the designer's intent file and your company methodology. Reads native, Synopsys VC and Siemens Questa report layouts. Independent bundle: works with or without the EDAUtils AI SDK and the FECAD flow, installs its own Python and yosys into a local directory (or system-wide), ships examples with goldens and an evaluation licence.
+
+Keywords: CDC analysis, RDC analysis, lint waiver, clock domain crossing, reset domain crossing, CDC sign-off, rule based expert system, VC CDC report analysis, Questa CDC report analysis, SpyGlass lint analysis, CDC waiver proposal, EDA expert system, free CDC tool
+
+- Asset: `edautils-expert-systems-20261106.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=EdautilsExpertSystems
+- Documentation: https://edautils.ai/expert-systems.html
+
+### FECAD Flow (`fecadflow-bin`)
+
+Flow automation framework for RTL simulation, synthesis, static checks, equivalence checking and DV regression across an IP hierarchy. Standalone Linux executables, no Python installation required.
+
+- Asset: `fecadflow-bin-20261015.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=FECADFlowBinaries
+- Documentation: https://edautils.com/
+
 ### findinstsornets (`findinstsornets`)
 
 Find instances or nets by name or pattern across a Verilog design hierarchy and print their full hierarchical paths.
 
 Keywords: find instance, find net, hierarchical path, Verilog search, design query
 
-- Asset: `findinstsornets-20261018.tar.gz` on the release page
+- Asset: `findinstsornets-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Findinstsornets
 - Documentation: https://edautils.com/
 
@@ -119,7 +173,7 @@ Flatten selective hierarchies in SoC keeping RTL intent intact
 
 Keywords: flatten instances, selective flatten, Verilog hierarchy, RTL flattening
 
-- Asset: `flatteninstances-20261018.tar.gz` on the release page
+- Asset: `flatteninstances-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Flatteninstances
 - Documentation: https://edautils.com/
 
@@ -129,7 +183,7 @@ Flatten all RTL hierarchies in a module
 
 Keywords: flatten Verilog, RTL flattening, hierarchy removal, Verilog netlist
 
-- Asset: `flattenverilog-20261018.tar.gz` on the release page
+- Asset: `flattenverilog-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Flattenverilog
 - Documentation: https://edautils.com/
 
@@ -139,7 +193,7 @@ Extract a Verilog/SystemVerilog design's connectivity -- instances, parameter ma
 
 Keywords: connectivity database, netlist connectivity, Baya connection DB
 
-- Asset: `genconnectiondb-20261018.tar.gz` on the release page
+- Asset: `genconnectiondb-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Genconnectiondb
 - Documentation: https://edautils.com/
 
@@ -149,7 +203,7 @@ Generate IP documentation (HTML/ODT) from an IP-XACT component: ports, parameter
 
 Keywords: IP-XACT documentation, register documentation, IP datasheet generator, IEEE 1685
 
-- Asset: `gendocipxact-20261018.tar.gz` on the release page
+- Asset: `gendocipxact-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Gendocipxact
 - Documentation: https://edautils.com/
 
@@ -159,7 +213,7 @@ Generate IP documentation from Verilog definition
 
 Keywords: Verilog documentation, IP documentation generator, module datasheet, port documentation
 
-- Asset: `gendocverilog-20261018.tar.gz` on the release page
+- Asset: `gendocverilog-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Gendocverilog
 - Documentation: https://edautils.com/
 
@@ -169,7 +223,7 @@ Generate C model from IP-XACT Register definition
 
 Keywords: C header generator, register C model, IP-XACT registers, firmware header
 
-- Asset: `genregistercmodel-20261018.tar.gz` on the release page
+- Asset: `genregistercmodel-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Genregistercmodel
 - Documentation: https://edautils.com/
 
@@ -179,7 +233,7 @@ Generate HTML register documentation from an IP-XACT register definition: addres
 
 Keywords: register documentation, HTML register map, IP-XACT registers, register datasheet
 
-- Asset: `genregisterdochtml-20261018.tar.gz` on the release page
+- Asset: `genregisterdochtml-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Genregisterdochtml
 - Documentation: https://edautils.com/
 
@@ -189,7 +243,7 @@ Generate UVM register model from IP-XACT Register File
 
 Keywords: UVM register model, uvm_reg generator, IP-XACT to UVM, RAL model
 
-- Asset: `genregisteruvmmodel-20261018.tar.gz` on the release page
+- Asset: `genregisteruvmmodel-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Genregisteruvmmodel
 - Documentation: https://edautils.com/
 
@@ -199,7 +253,7 @@ Generate Verilog wrapper with simple Verilog-95 ports by flattening complex port
 
 Keywords: Verilog wrapper generator, port flattening, Verilog-95 wrapper, SystemVerilog to Verilog ports
 
-- Asset: `genwrapperverilog-20261018.tar.gz` on the release page
+- Asset: `genwrapperverilog-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Genwrapperverilog
 - Documentation: https://edautils.com/
 
@@ -209,7 +263,7 @@ Generate VHDL wrapper on top of Verilog module or VHDL entity
 
 Keywords: VHDL wrapper generator, mixed language wrapper, VHDL on Verilog, entity wrapper
 
-- Asset: `genwrappervhdl-20261018.tar.gz` on the release page
+- Asset: `genwrappervhdl-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Genwrappervhdl
 - Documentation: https://edautils.com/
 
@@ -219,7 +273,7 @@ All IP-XACT utilities in commandline with Tcl/Python API
 
 Keywords: IP-XACT, IEEE 1685, IP-XACT editor, IP-XACT generator, Tcl API, Python API
 
-- Asset: `ipxact-shell-20261018.tar.gz` on the release page
+- Asset: `ipxact-shell-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=IpxactShell
 - Documentation: https://edautils.com/
 
@@ -229,7 +283,7 @@ Turn an IP-XACT 1685-2009 component into the ipxact-shell Tcl commands that rebu
 
 Keywords: IP-XACT to Tcl, IP-XACT component script, IEEE 1685
 
-- Asset: `ipxact2tcl-20261018.tar.gz` on the release page
+- Asset: `ipxact2tcl-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Ipxact2tcl
 - Documentation: https://edautils.com/
 
@@ -239,7 +293,7 @@ Generate a SystemC TLM-2.0 model skeleton from an IP-XACT component: registers, 
 
 Keywords: IP-XACT to TLM, SystemC TLM generator, TLM-2.0, virtual platform, IEEE 1685
 
-- Asset: `ipxact2tlm-20261018.tar.gz` on the release page
+- Asset: `ipxact2tlm-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Ipxact2tlm
 - Documentation: https://edautils.com/
 
@@ -249,7 +303,7 @@ Generate Verilog module from IP-XACT definition
 
 Keywords: IP-XACT to Verilog, module generator, IEEE 1685, RTL from IP-XACT
 
-- Asset: `ipxact2verilog-20261018.tar.gz` on the release page
+- Asset: `ipxact2verilog-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Ipxact2Verilog
 - Documentation: https://edautils.com/
 
@@ -259,7 +313,7 @@ Generate VHDL entity from IP-XACT Component definition
 
 Keywords: IP-XACT to VHDL, entity generator, IEEE 1685
 
-- Asset: `ipxact2vhdlentity-20261018.tar.gz` on the release page
+- Asset: `ipxact2vhdlentity-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Ipxact2Vhdlentity
 - Documentation: https://edautils.com/
 
@@ -269,7 +323,7 @@ Check an IP-XACT component against its RTL for coherency: ports, parameters and 
 
 Keywords: IP-XACT coherency, IP-XACT vs RTL check, IP packaging verification, IEEE 1685
 
-- Asset: `ipxactcoherencychecker-20261018.tar.gz` on the release page
+- Asset: `ipxactcoherencychecker-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Ipxactcoherencychecker
 - Documentation: https://edautils.com/
 
@@ -279,7 +333,7 @@ Generate SystemVerilog interfaces from IP-XACT bus and abstraction definitions.
 
 Keywords: IP-XACT to SystemVerilog interface, bus definition, abstraction definition, SystemVerilog interface generator
 
-- Asset: `ipxactinterface2svinterface-20261018.tar.gz` on the release page
+- Asset: `ipxactinterface2svinterface-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Ipxactinterface2svinterface
 - Documentation: https://edautils.com/
 
@@ -289,7 +343,7 @@ Lint IP-XACT (IEEE 1685-2009/2014/2022) documents against the Semantic Consisten
 
 Keywords: IP-XACT lint, IEEE 1685 semantic consistency rules, SCR checker, IP-XACT 2009 2014 2022, register map checker
 
-- Asset: `ipxactlint-20261018.tar.gz` on the release page
+- Asset: `ipxactlint-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Ipxactlint
 - Documentation: https://edautils.com/ipxactlint.html
 
@@ -299,7 +353,7 @@ Generate synthesizable Verilog RTL for the registers and address blocks of an IP
 
 Keywords: register RTL generator, IP-XACT registers to Verilog, memory map RTL, IEEE 1685
 
-- Asset: `ipxactreg2verilog-20261018.tar.gz` on the release page
+- Asset: `ipxactreg2verilog-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Ipxactreg2verilog
 - Documentation: https://edautils.com/
 
@@ -309,7 +363,7 @@ Export the registers of an IP-XACT address block to an Excel register spreadshee
 
 Keywords: IP-XACT to Excel, register spreadsheet, register export, IEEE 1685
 
-- Asset: `ipxactreg2xlsreg-20261018.tar.gz` on the release page
+- Asset: `ipxactreg2xlsreg-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Ipxactreg2xlsreg
 - Documentation: https://edautils.com/
 
@@ -319,8 +373,16 @@ Generate empty Verilog modules (ports only) for every cell in a Liberty .lib lib
 
 Keywords: Liberty to Verilog, library stub generator, empty module, cell stubs, .lib to Verilog
 
-- Asset: `lib2verilog-20261018.tar.gz` on the release page
+- Asset: `lib2verilog-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Lib2verilog
+- Documentation: https://edautils.com/
+
+### makestructural (`makestructural`)
+
+EDAUtils makestructural command-line tool (auto-registered by the release pipeline -- edit via Admin > Tools Configuration).
+
+- Asset: `makestructural-20261108.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=Makestructural
 - Documentation: https://edautils.com/
 
 ### mergemodules (`mergemodules`)
@@ -329,7 +391,7 @@ Pull instances from different modules to build new module, maximizing reuse
 
 Keywords: merge modules, Verilog reuse, module builder, RTL restructuring
 
-- Asset: `mergemodules-20261018.tar.gz` on the release page
+- Asset: `mergemodules-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Mergemodules
 - Documentation: https://edautils.com/
 
@@ -339,7 +401,7 @@ Liberty .lib parser implemented in Java
 
 Keywords: Liberty parser, .lib parser, standard cell library, timing library, Java API
 
-- Asset: `parseliberty-20261018.tar.gz` on the release page
+- Asset: `parseliberty-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Parseliberty
 - Documentation: https://edautils.com/
 
@@ -349,7 +411,7 @@ Parse an SDC (Synopsys Design Constraints) file with an ANTLR4 grammar and write
 
 Keywords: SDC parser, timing constraints, ANTLR SDC grammar
 
-- Asset: `parsesdc-20261018.tar.gz` on the release page
+- Asset: `parsesdc-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Parsesdc
 - Documentation: https://edautils.com/
 
@@ -359,7 +421,7 @@ Parse a UPF (IEEE 1801) power-intent file with an ANTLR4 grammar and write it ba
 
 Keywords: UPF parser, IEEE 1801, power intent, ANTLR UPF grammar
 
-- Asset: `parseupf-20261018.tar.gz` on the release page
+- Asset: `parseupf-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Parseupf
 - Documentation: https://edautils.com/
 
@@ -369,7 +431,7 @@ VCD file parser with Java, Python, Tcl support
 
 Keywords: VCD parser, value change dump, waveform parser, IEEE 1364 VCD, Java API
 
-- Asset: `parsevcd-20261018.tar.gz` on the release page
+- Asset: `parsevcd-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Parsevcd
 - Documentation: https://edautils.com/
 
@@ -379,7 +441,7 @@ IEEE LRM-compliant SystemVerilog parser with Java, Python, Tcl APIs
 
 Keywords: SystemVerilog parser, Verilog parser, IEEE 1800, Java API, Python API, Tcl API, RTL parser
 
-- Asset: `parseverilog-20261018.tar.gz` on the release page
+- Asset: `parseverilog-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=ParseverilogSystemverilog
 - Documentation: https://edautils.com/
 
@@ -389,7 +451,7 @@ IEEE LRM-compliant VHDL parser with Java, Python, Tcl APIs
 
 Keywords: VHDL parser, IEEE 1076, VHDL-2008, Java API, Python API, Tcl API
 
-- Asset: `parsevhdl-20261018.tar.gz` on the release page
+- Asset: `parsevhdl-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Parsevhdl
 - Documentation: https://edautils.com/
 
@@ -399,7 +461,7 @@ IEEE 1800 SystemVerilog preprocessor: expand `define macros, `include files and 
 
 Keywords: Verilog preprocessor, SystemVerilog preprocessor, macro expansion, ifdef, include
 
-- Asset: `preprocessverilog-20261018.tar.gz` on the release page
+- Asset: `preprocessverilog-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Preprocessverilog
 - Documentation: https://edautils.com/
 
@@ -409,7 +471,7 @@ Punch new ports through a Verilog hierarchy: add a port on a sub-module and rout
 
 Keywords: punch ports, add port through hierarchy, feedthrough, Verilog port routing, RTL editing
 
-- Asset: `punchports-20261018.tar.gz` on the release page
+- Asset: `punchports-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Punchports
 - Documentation: https://edautils.com/
 
@@ -419,7 +481,7 @@ Remove continuous assignments from Verilog RTL by connecting the driving express
 
 Keywords: remove assign, Verilog cleanup, continuous assignment, RTL simplification
 
-- Asset: `removeassignments-20261018.tar.gz` on the release page
+- Asset: `removeassignments-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Removeassignments
 - Documentation: https://edautils.com/
 
@@ -429,7 +491,7 @@ Remove Verilog RTL hierarchies as specified while maintaining design intent
 
 Keywords: remove hierarchy, ungroup instances, Verilog flatten, RTL restructuring
 
-- Asset: `removehierarchy-20261018.tar.gz` on the release page
+- Asset: `removehierarchy-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Removehierarchy
 - Documentation: https://edautils.com/
 
@@ -439,8 +501,16 @@ SDC constraints parser and Tcl shell: load, query, edit and write back Synopsys 
 
 Keywords: SDC parser, Synopsys Design Constraints, timing constraints, Tcl shell, constraint editor
 
-- Asset: `sdc-shell-20261018.tar.gz` on the release page
+- Asset: `sdc-shell-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=SdcShell
+- Documentation: https://edautils.com/
+
+### sdc2xls (`sdc2xls`)
+
+EDAUtils sdc2xls command-line tool (auto-registered by the release pipeline -- edit via Admin > Tools Configuration).
+
+- Asset: `sdc2xls-20261108.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=Sdc2xls
 - Documentation: https://edautils.com/
 
 ### sdclint (`sdclint`)
@@ -449,7 +519,7 @@ Lint SDC timing constraints: evaluates the decks like a timing tool and checks c
 
 Keywords: SDC lint, timing constraint checker, constraint review
 
-- Asset: `sdclint-20261018.tar.gz` on the release page
+- Asset: `sdclint-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Sdclint
 - Documentation: https://edautils.com/
 
@@ -459,7 +529,7 @@ Swap library cells or module instances in a Verilog netlist for another cell or 
 
 Keywords: swap cells, cell replacement, netlist ECO, library migration, Verilog instance swap
 
-- Asset: `swapcells-20261018.tar.gz` on the release page
+- Asset: `swapcells-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Swapcells
 - Documentation: https://edautils.com/
 
@@ -469,7 +539,7 @@ Uniquify Verilog modules, classes, structures, interfaces and packages
 
 Keywords: uniquify Verilog, unique module names, SystemVerilog uniquify, parameterized module
 
-- Asset: `uniquifyverilog-20261018.tar.gz` on the release page
+- Asset: `uniquifyverilog-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Uniquifyverilog
 - Documentation: https://edautils.com/
 
@@ -479,7 +549,7 @@ UPF parser, editor, decompiler, and validator (IEEE 1801-2013 compliant)
 
 Keywords: UPF parser, IEEE 1801, UPF validator, UPF decompiler, power intent, low power
 
-- Asset: `upf-shell-20261018.tar.gz` on the release page
+- Asset: `upf-shell-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=UpfShell
 - Documentation: https://edautils.com/
 
@@ -489,7 +559,7 @@ Bring existing UPF (IEEE 1801) power intent into the xls2upf spreadsheet: evalua
 
 Keywords: UPF to Excel, UPF to spreadsheet, power intent, IEEE 1801, UPF round trip
 
-- Asset: `upf2xlsx-20261018.tar.gz` on the release page
+- Asset: `upf2xlsx-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Upf2xlsx
 - Documentation: https://edautils.com/
 
@@ -499,7 +569,7 @@ Lint UPF (IEEE 1801) power intent: evaluates the UPF like a power-intent tool an
 
 Keywords: UPF lint, power intent checker, IEEE 1801, low power verification
 
-- Asset: `upflint-20261018.tar.gz` on the release page
+- Asset: `upflint-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Upflint
 - Documentation: https://edautils.com/
 
@@ -509,7 +579,7 @@ Upgrade IP-XACT files between schema revisions (SPIRIT 1.4/1.5, IEEE 1685-2009, 
 
 Keywords: IP-XACT upgrade, IP-XACT 2009 to 2014, IP-XACT 2022, schema migration, IEEE 1685
 
-- Asset: `upgradeipxact-20261018.tar.gz` on the release page
+- Asset: `upgradeipxact-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Upgradeipxact
 - Documentation: https://edautils.com/
 
@@ -519,7 +589,7 @@ IP-XACT syntax and semantics validator
 
 Keywords: IP-XACT validator, IEEE 1685, schema validation, semantic check, IP-XACT 2009 2014 2022
 
-- Asset: `validateipxact-20261018.tar.gz` on the release page
+- Asset: `validateipxact-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Validateipxact
 - Documentation: https://edautils.com/
 
@@ -529,7 +599,7 @@ Generate IP-XACT Component from Verilog module with ports and parameters
 
 Keywords: Verilog to IP-XACT, IP-XACT component generator, IEEE 1685, IP packaging
 
-- Asset: `verilog2ipxact-20261018.tar.gz` on the release page
+- Asset: `verilog2ipxact-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Verilog2Ipxact
 - Documentation: https://edautils.com/
 
@@ -539,7 +609,7 @@ Generate a Liberty .lib library shell from Verilog modules: one cell per module 
 
 Keywords: Verilog to Liberty, library generator, .lib generator, cell library
 
-- Asset: `verilog2lib-20261018.tar.gz` on the release page
+- Asset: `verilog2lib-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Verilog2lib
 - Documentation: https://edautils.com/
 
@@ -549,7 +619,7 @@ Convert Verilog to SystemC keeping original structure
 
 Keywords: Verilog to SystemC, RTL to SystemC, SystemC generator, HDL conversion
 
-- Asset: `verilog2systemc-20261018.tar.gz` on the release page
+- Asset: `verilog2systemc-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Verilog2Systemc
 - Documentation: https://edautils.com/
 
@@ -559,7 +629,7 @@ Convert Verilog to VHDL while maintaining structure and function
 
 Keywords: Verilog to VHDL, RTL converter, Verilog VHDL translation, HDL conversion
 
-- Asset: `verilog2vhdl-20261018.tar.gz` on the release page
+- Asset: `verilog2vhdl-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Verilog2Vhdl
 - Documentation: https://edautils.com/
 
@@ -569,7 +639,7 @@ Generate IP-XACT component from VHDL entity
 
 Keywords: VHDL to IP-XACT, IP-XACT component generator, IEEE 1685, IP packaging
 
-- Asset: `vhdl2ipxact-20261018.tar.gz` on the release page
+- Asset: `vhdl2ipxact-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Vhdl2Ipxact
 - Documentation: https://edautils.com/
 
@@ -579,7 +649,7 @@ Convert VHDL RTL to SystemC keeping the original structure and signal names for 
 
 Keywords: VHDL to SystemC, RTL to SystemC, SystemC generator, HDL conversion
 
-- Asset: `vhdl2systemc-20261018.tar.gz` on the release page
+- Asset: `vhdl2systemc-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Vhdl2systemc
 - Documentation: https://edautils.com/
 
@@ -589,7 +659,7 @@ Convert VHDL to Verilog keeping same structure for easy correlation
 
 Keywords: VHDL to Verilog, RTL converter, VHDL Verilog translation, HDL conversion
 
-- Asset: `vhdl2verilog-20261018.tar.gz` on the release page
+- Asset: `vhdl2verilog-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Vhdl2Verilog
 - Documentation: https://edautils.com/
 
@@ -599,7 +669,7 @@ VHDL testbench generator with random test vectors
 
 Keywords: VHDL testbench generator, random test vectors, testbench skeleton
 
-- Asset: `vhdltbgen-20261018.tar.gz` on the release page
+- Asset: `vhdltbgen-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Vhdltbgen
 - Documentation: https://edautils.com/
 
@@ -609,7 +679,7 @@ Verilog testbench generator with random test vectors
 
 Keywords: Verilog testbench generator, random test vectors, testbench skeleton, SystemVerilog testbench
 
-- Asset: `vlogtbgen-20261018.tar.gz` on the release page
+- Asset: `vlogtbgen-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Vlogtbgen
 - Documentation: https://edautils.com/
 
@@ -619,8 +689,16 @@ Convert XLS-based register definition to IP-XACT format
 
 Keywords: Excel to IP-XACT, register definition, XLS to IP-XACT, memory map generator
 
-- Asset: `xls2ipxact-20261018.tar.gz` on the release page
+- Asset: `xls2ipxact-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Xls2Ipxact
+- Documentation: https://edautils.com/
+
+### xls2sdc (`xls2sdc`)
+
+EDAUtils xls2sdc command-line tool (auto-registered by the release pipeline -- edit via Admin > Tools Configuration).
+
+- Asset: `xls2sdc-20261108.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=Xls2sdc
 - Documentation: https://edautils.com/
 
 ### xls2upf (`xls2upf`)
@@ -629,6 +707,6 @@ Generate a UPF (IEEE 1801) power-intent file from an Excel spreadsheet of power 
 
 Keywords: Excel to UPF, UPF generator, power intent, IEEE 1801, low power spreadsheet
 
-- Asset: `xls2upf-20261018.tar.gz` on the release page
+- Asset: `xls2upf-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=Xls2upf
 - Documentation: https://edautils.com/
