@@ -29,7 +29,7 @@ Complete SoC integration solution with Tcl API (Recommended)
 
 Keywords: SoC integration tool, RTL hookup, IP assembly, IP-XACT design, Verilog VHDL integration, Tcl API, free EDA tool
 
-- Asset: `baya-shell-20261009.tar.gz` on the release page
+- Asset: `baya-shell-20261108.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=BayaShell
 - Documentation: https://edautils.com/
 
