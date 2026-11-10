@@ -129,6 +129,34 @@ Keywords: IP-XACT tool, IP integration, RTL utilities, Tcl shell, Python API, Ja
 - Download page: https://edautils.ai/download?tool=DesignplayerShell
 - Documentation: https://edautils.com/
 
+### edautils-ai-sdk (`edautils-ai-sdk`)
+
+AI agent fleet for EDA: a Flow Manager, 7 domain Leads and 55 agents that parse RTL, build a design model, and run FECAD, DFT, RTL-static, verification, signoff and SoC-integration flows from one natural-language request. Ships a Python SDK, a CLI, a TUI, a WebGUI, an MCP facade, and VS Code and Cursor extensions. Runs entirely inside your network against a local model server or your own provider keys.
+
+Keywords: AI agents for EDA, AI SDK for chip design, LLM agents for RTL, agentic RTL design flow, AI DFT flow, AI CDC analysis, SoC integration agents, Verilog VHDL AI parser, design model extraction, MCP server for EDA, VS Code EDA extension, Cursor EDA extension, Python EDA SDK, free AI EDA tool
+
+- Asset: `edautils-ai-sdk-20261017.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=EdautilsAiSdk
+- Documentation: https://edautils.ai/
+
+### edautils-expert-systems (`edautils-expert-systems`)
+
+Rule-based CDC, RDC and Lint Expert Systems: for every violation a CDC, RDC or Lint tool reports, a verdict (FIX_RTL, WAIVE as a proposal that needs your written reference, FIX_CONSTRAINT or NEEDS_REVIEW) with the rule that fired and its derivation, decided from the elaborated design, the SDC, the designer's intent file and your company methodology. Reads native, Synopsys VC and Siemens Questa report layouts. Independent bundle: works with or without the EDAUtils AI SDK and the FECAD flow, installs its own Python and yosys into a local directory (or system-wide), ships examples with goldens and an evaluation licence.
+
+Keywords: CDC analysis, RDC analysis, lint waiver, clock domain crossing, reset domain crossing, CDC sign-off, rule based expert system, VC CDC report analysis, Questa CDC report analysis, SpyGlass lint analysis, CDC waiver proposal, EDA expert system, free CDC tool
+
+- Asset: `edautils-expert-systems-20261106.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=EdautilsExpertSystems
+- Documentation: https://edautils.ai/expert-systems.html
+
+### FECAD Flow (`fecadflow-bin`)
+
+Flow automation framework for RTL simulation, synthesis, static checks, equivalence checking and DV regression across an IP hierarchy. Standalone Linux executables, no Python installation required.
+
+- Asset: `fecadflow-bin-20261108.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=FECADFlowBinaries
+- Documentation: https://edautils.com/
+
 ### findinstsornets (`findinstsornets`)
 
 Find instances or nets by name or pattern across a Verilog design hierarchy and print their full hierarchical paths.
