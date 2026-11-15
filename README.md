@@ -149,6 +149,14 @@ Keywords: CDC analysis, RDC analysis, lint waiver, clock domain crossing, reset 
 - Download page: https://edautils.ai/download?tool=EdautilsExpertSystems
 - Documentation: https://edautils.ai/expert-systems.html
 
+### edautils-gk (`edautils-gk`)
+
+EDAUtils edautils-gk command-line tool (auto-registered by the release pipeline -- edit via Admin > Tools Configuration).
+
+- Asset: `edautils-gk-0.1.0-20261115.tar.gz` on the release page
+- Download page: https://edautils.ai/download?tool=EdautilsGk
+- Documentation: https://edautils.com/
+
 ### FECAD Flow (`fecadflow-bin`)
 
 Flow automation framework for RTL simulation, synthesis, static checks, equivalence checking and DV regression across an IP hierarchy. Standalone Linux executables, no Python installation required.
