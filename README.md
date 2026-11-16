@@ -7,7 +7,7 @@ integration and RTL hierarchy manipulation, testbench and register-model generat
 
 - Downloads: https://edautils.ai/
 - Documentation: https://edautils.com/ (AI SDK: https://edautils.ai/)
-- Latest release: [RELEASE_20261115](../../releases/tag/RELEASE_20261115)
+- Latest release: [RELEASE_20261116](../../releases/tag/RELEASE_20261116)
 - Support: help@edautils.com
 
 ## Install and run
@@ -129,29 +129,21 @@ Keywords: IP-XACT tool, IP integration, RTL utilities, Tcl shell, Python API, Ja
 - Download page: https://edautils.ai/download?tool=DesignplayerShell
 - Documentation: https://edautils.com/
 
-### edautils-ai-sdk (`edautils-ai-sdk`)
-
-AI agent fleet for EDA: a Flow Manager, 7 domain Leads and 55 agents that parse RTL, build a design model, and run FECAD, DFT, RTL-static, verification, signoff and SoC-integration flows from one natural-language request. Ships a Python SDK, a CLI, a TUI, a WebGUI, an MCP facade, and VS Code and Cursor extensions. Runs entirely inside your network against a local model server or your own provider keys.
-
-Keywords: AI agents for EDA, AI SDK for chip design, LLM agents for RTL, agentic RTL design flow, AI DFT flow, AI CDC analysis, SoC integration agents, Verilog VHDL AI parser, design model extraction, MCP server for EDA, VS Code EDA extension, Cursor EDA extension, Python EDA SDK, free AI EDA tool
-
-- Asset: `edautils-ai-sdk-20261017.tar.gz` on the release page
-- Download page: https://edautils.ai/download?tool=EdautilsAiSdk
-- Documentation: https://edautils.ai/
-
 ### edautils-expert-systems (`edautils-expert-systems`)
 
 Rule-based CDC, RDC and Lint Expert Systems: for every violation a CDC, RDC or Lint tool reports, a verdict (FIX_RTL, WAIVE as a proposal that needs your written reference, FIX_CONSTRAINT or NEEDS_REVIEW) with the rule that fired and its derivation, decided from the elaborated design, the SDC, the designer's intent file and your company methodology. Reads native, Synopsys VC and Siemens Questa report layouts. Independent bundle: works with or without the EDAUtils AI SDK and the FECAD flow, installs its own Python and yosys into a local directory (or system-wide), ships examples with goldens and an evaluation licence.
 
 Keywords: CDC analysis, RDC analysis, lint waiver, clock domain crossing, reset domain crossing, CDC sign-off, rule based expert system, VC CDC report analysis, Questa CDC report analysis, SpyGlass lint analysis, CDC waiver proposal, EDA expert system, free CDC tool
 
-- Asset: `edautils-expert-systems-20261115.tar.gz` on the release page
+- Asset: `edautils-expert-systems-20261116.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=EdautilsExpertSystems
 - Documentation: https://edautils.ai/expert-systems.html
 
-### edautils-gk (`edautils-gk`)
+### EDAUtils GK (Gate Keeper) (`edautils-gk`)
 
-EDAUtils edautils-gk command-line tool (auto-registered by the release pipeline -- edit via Admin > Tools Configuration).
+Gated continuous integration, test and delivery for SoC design teams: developers and AI agents turn in changes instead of pushing, every change is checked on your batch farm before it reaches the golden repository, and failing changes are isolated and returned with the reason. Works with LSF or SLURM. Install with the bundled install.sh; requires the site's Python (3.11+ on the GK server host, 3.6+ on developer desks) and git 2.30+. Ships a 90-day evaluation licence.
+
+Keywords: gated CI for SoC, continuous integration, pre-merge checks, LSF, SLURM, RTL regression gating
 
 - Asset: `edautils-gk-0.1.0-20261115.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=EdautilsGk
