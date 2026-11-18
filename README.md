@@ -7,7 +7,7 @@ integration and RTL hierarchy manipulation, testbench and register-model generat
 
 - Downloads: https://edautils.ai/
 - Documentation: https://edautils.com/ (AI SDK: https://edautils.ai/)
-- Latest release: [RELEASE_20261116](../../releases/tag/RELEASE_20261116)
+- Latest release: [RELEASE_20261118](../../releases/tag/RELEASE_20261118)
 - Support: help@edautils.com
 
 ## Install and run
@@ -135,7 +135,7 @@ Rule-based CDC, RDC and Lint Expert Systems: for every violation a CDC, RDC or L
 
 Keywords: CDC analysis, RDC analysis, lint waiver, clock domain crossing, reset domain crossing, CDC sign-off, rule based expert system, VC CDC report analysis, Questa CDC report analysis, SpyGlass lint analysis, CDC waiver proposal, EDA expert system, free CDC tool
 
-- Asset: `edautils-expert-systems-20261116.tar.gz` on the release page
+- Asset: `edautils-expert-systems-20261118.tar.gz` on the release page
 - Download page: https://edautils.ai/download?tool=EdautilsExpertSystems
 - Documentation: https://edautils.ai/expert-systems.html
 
